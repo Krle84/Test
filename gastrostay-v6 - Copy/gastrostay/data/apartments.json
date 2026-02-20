@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Gastro Suite Downtown",
+    "pricePerNight": 65,
+    "thumbnail": "assets/apartments/a1-1.jpg",
+    "images": ["assets/apartments/a1-1.jpg","assets/apartments/a1-2.jpg","assets/apartments/a1-3.jpg","assets/apartments/a1-4.jpg"],
+    "beds": 2,
+    "guests": 4,
+    "size": 45,
+    "locationNote": "Heart of Belgrade, walking distance to Knez Mihailova",
+    "amenities": ["Wi-Fi","Air conditioning","Full kitchen","Self check-in","Smart TV","Washing machine","Coffee machine","Iron & board"],
+    "description": "A modern and spacious apartment in the very heart of Belgrade. Ideal for couples or small families who want to explore the city on foot. The apartment features a fully equipped kitchen, comfortable sleeping area and a stylish living room.",
+    "rules": ["No smoking","No pets","Quiet hours 22:00–08:00","Check-in from 15:00","Check-out by 11:00"]
+  },
+  {
+    "id": 2,
+    "name": "Stay & Cook Studio",
+    "pricePerNight": 50,
+    "thumbnail": "assets/apartments/a2-1.jpg",
+    "images": ["assets/apartments/a2-1.jpg","assets/apartments/a2-2.jpg","assets/apartments/a2-3.jpg","assets/apartments/a2-4.jpg"],
+    "beds": 1,
+    "guests": 2,
+    "size": 30,
+    "locationNote": "Dorćol neighborhood, near top restaurants and cafés",
+    "amenities": ["Wi-Fi","Air conditioning","Full kitchen","Self check-in","Smart TV","Coffee machine","Workspace desk"],
+    "description": "A charming studio apartment in Dorćol, perfect for foodies who want to be close to the best restaurants and cafés. Compact yet fully equipped, it offers everything you need for a comfortable stay.",
+    "rules": ["No smoking","No pets","Quiet hours 22:00–08:00","Check-in from 15:00","Check-out by 11:00"]
+  },
+  {
+    "id": 3,
+    "name": "Belgrade Panorama Loft",
+    "pricePerNight": 85,
+    "thumbnail": "assets/apartments/a3-1.jpg",
+    "images": ["assets/apartments/a3-1.jpg","assets/apartments/a3-2.jpg","assets/apartments/a3-3.jpg","assets/apartments/a3-4.jpg"],
+    "beds": 3,
+    "guests": 6,
+    "size": 75,
+    "locationNote": "Top floor, panoramic views over Belgrade rooftops",
+    "amenities": ["Wi-Fi","Air conditioning","Full kitchen","Self check-in","Smart TV","Washing machine","Dishwasher","Balcony","Coffee machine","Iron & board"],
+    "description": "A luxurious top-floor apartment with breathtaking views of the city. The spacious living room and modern kitchen make it the perfect choice for larger groups or those looking for an elevated experience in Belgrade.",
+    "rules": ["No smoking","No pets","Quiet hours 22:00–08:00","Check-in from 15:00","Check-out by 11:00","Max 6 guests"]
+  },
+  {
+    "id": 4,
+    "name": "Urban Garden Retreat",
+    "pricePerNight": 55,
+    "thumbnail": "assets/apartments/a4-1.jpg",
+    "images": ["assets/apartments/a4-1.jpg","assets/apartments/a4-2.jpg","assets/apartments/a4-3.jpg","assets/apartments/a4-4.jpg"],
+    "beds": 1,
+    "guests": 2,
+    "size": 35,
+    "locationNote": "Vračar, quiet street near Hram Svetog Save",
+    "amenities": ["Wi-Fi","Air conditioning","Kitchenette","Self check-in","Smart TV","Private garden access","Coffee machine"],
+    "description": "A cozy retreat in the vibrant Vračar neighborhood, featuring a private garden area — a rare find in the city. Perfect for those seeking a peaceful escape without sacrificing central location.",
+    "rules": ["No smoking","No parties","Quiet hours 22:00–08:00","Check-in from 15:00","Check-out by 11:00"]
+  },
+  {
+    "id": 5,
+    "name": "River Breeze Apartment",
+    "pricePerNight": 70,
+    "thumbnail": "assets/apartments/a5-1.jpg",
+    "images": ["assets/apartments/a5-1.jpg","assets/apartments/a5-2.jpg","assets/apartments/a5-3.jpg","assets/apartments/a5-4.jpg"],
+    "beds": 2,
+    "guests": 4,
+    "size": 55,
+    "locationNote": "Savamala district, close to the Sava riverfront",
+    "amenities": ["Wi-Fi","Air conditioning","Full kitchen","Self check-in","Smart TV","Washing machine","River view","Coffee machine","Workspace desk"],
+    "description": "Enjoy fresh river breezes from this beautifully designed apartment in Savamala — Belgrade's creative and cultural quarter. Walk to riverside bars, galleries, and some of the city's best nightlife.",
+    "rules": ["No smoking","No pets","Quiet hours 23:00–08:00","Check-in from 15:00","Check-out by 11:00"]
+  }
+]
