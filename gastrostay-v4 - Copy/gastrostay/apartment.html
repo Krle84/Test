@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartment — Gastro &amp; Stay Belgrade</title>
+  <meta name="description" content="Premium apartment in Belgrade. Gastro &amp; Stay — short-term rentals in the heart of the city.">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════ HEADER ═══════════════════════════ -->
+<header id="header" role="banner">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link" aria-label="Gastro &amp; Stay Home">
+      <img src="assets/gastro_logo.jpeg" alt="Gastro &amp; Stay logo" class="logo-img">
+      <span class="logo-text">Gastro <span>&amp;</span> Stay</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="index.html#apartmani" class="nav-link active">Apartments</a>
+      <a href="index.html#lokacija" class="nav-link">Location</a>
+      <a href="index.html#upit" class="nav-link">Inquiry</a>
+      <a href="index.html#footer" class="nav-link">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-dropdown">
+        <button class="lang-btn" aria-haspopup="listbox">
+          <span>EN</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lang-menu" role="listbox">
+          <a class="lang-option active" data-lang="EN" href="#">🇬🇧 English</a>
+          <a class="lang-option" data-lang="RS" href="#">🇷🇸 Srpski</a>
+        </div>
+      </div>
+      <a id="apt-inquiry-link" href="index.html#upit" class="btn btn-primary btn-sm">Send Inquiry</a>
+    </div>
+    <button class="burger-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="index.html#apartmani" class="nav-link">Apartments</a>
+  <a href="index.html#lokacija" class="nav-link">Location</a>
+  <a href="index.html#upit" class="nav-link">Inquiry</a>
+  <a href="index.html#footer" class="nav-link">Contact</a>
+  <a id="apt-inquiry-link-mobile" href="index.html#upit" class="btn btn-primary" style="margin-top:16px;">Send Inquiry</a>
+</nav>
+
+<main>
+
+<!-- ══════════════════════ APT HERO ══════════════════════════ -->
+<section class="apt-page-hero">
+  <div class="container">
+    <nav class="apt-page-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="index.html#apartmani">Apartments</a>
+      <span aria-hidden="true">›</span>
+      <span id="apt-breadcrumb-name">Loading…</span>
+    </nav>
+    <h1 class="apt-page-title" id="apt-name">Loading…</h1>
+    <div class="apt-page-meta">
+      <div class="apt-page-price" id="apt-price">—</div>
+      <span class="apt-avail-badge">Availability: on request</span>
+    </div>
+    <div class="apt-chips" id="apt-hero-chips" aria-label="Apartment details">
+      <!-- loaded by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ GALLERY ══════════════════════════ -->
+<section class="section-sm" aria-label="Photo gallery">
+  <div class="container">
+    <div class="gallery-slider" id="gallery-slider" aria-label="Apartment photos">
+
+      <!-- Main image with arrows -->
+      <div class="gallery-main-wrap" id="gallery-main" tabindex="0" role="button" aria-label="Open lightbox">
+        <div class="apt-placeholder-1 apt-img-placeholder" id="gallery-main-img" role="img" aria-label="Apartment main photo"></div>
+        <span class="gallery-counter" id="gallery-counter" aria-live="polite">1 / 4</span>
+        <button class="gallery-arrow gallery-arrow-prev" id="gallery-prev" aria-label="Previous photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="gallery-arrow gallery-arrow-next" id="gallery-next" aria-label="Next photo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <!-- Thumbnails strip -->
+      <div class="gallery-thumbs" id="gallery-thumbs" role="list" aria-label="Photo thumbnails">
+        <!-- loaded by JS -->
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ DETAILS ══════════════════════════ -->
+<section class="section" aria-labelledby="apt-desc-title">
+  <div class="container">
+    <div class="apt-detail-grid">
+      <!-- Main content -->
+      <div>
+        <h2 class="apt-section-title" id="apt-desc-title">About this apartment</h2>
+        <p id="apt-description" style="color:var(--text-muted);line-height:1.8;font-size:1rem;margin-bottom:40px;">Loading…</p>
+
+        <h2 class="apt-section-title">Amenities</h2>
+        <div class="amenities-grid" id="apt-amenities" style="margin-bottom:40px;">
+          <!-- loaded by JS -->
+        </div>
+
+        <h2 class="apt-section-title">House Rules</h2>
+        <ul class="rules-list" id="apt-rules" aria-label="House rules">
+          <!-- loaded by JS -->
+        </ul>
+      </div>
+
+      <!-- Sidebar -->
+      <aside aria-label="Booking information">
+        <div class="apt-sidebar-card">
+          <div class="price-big" id="sb-price">—</div>
+          <div class="price-sub">per night · Availability on request</div>
+          <div class="apt-sidebar-info" id="sb-info">
+            <!-- loaded by JS -->
+          </div>
+          <a id="apt-inquiry-link" href="index.html#upit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            Send Inquiry
+          </a>
+          <p style="font-size:0.78rem;color:var(--text-light);margin-top:14px;text-align:center;">No payment required — we'll confirm availability within a few hours.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo-link" style="margin-bottom:16px;display:inline-flex;">
+          <img src="assets/gastro_logo.jpeg" alt="" class="logo-img" aria-hidden="true">
+          <span class="logo-text" style="color:var(--ivory);">Gastro <span style="color:var(--primary);">&amp;</span> Stay</span>
+        </a>
+        <p>Premium short-term apartment rentals in the heart of Belgrade.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Apartments</h4>
+        <ul class="footer-links">
+          <li><a href="apartment.html?id=1">Gastro Suite Downtown</a></li>
+          <li><a href="apartment.html?id=2">Stay &amp; Cook Studio</a></li>
+          <li><a href="apartment.html?id=3">Belgrade Panorama Loft</a></li>
+          <li><a href="apartment.html?id=4">Urban Garden Retreat</a></li>
+          <li><a href="apartment.html?id=5">River Breeze Apartment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#apartmani">All Apartments</a></li>
+          <li><a href="index.html#upit">Send Inquiry</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="mailto:info@gastroandstay.com">info@gastroandstay.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Gastro &amp; Stay Belgrade. All rights reserved.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lb-close" aria-label="Close lightbox">×</button>
+    <div class="lightbox-img-wrap" id="lb-img-wrap"></div>
+    <button class="lightbox-nav lightbox-prev" id="lb-prev" aria-label="Previous image">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox-nav lightbox-next" id="lb-next" aria-label="Next image">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox-counter" id="lb-counter" aria-live="polite"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/apartment.js"></script>
+</body>
+</html>
